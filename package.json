@@ -1,0 +1,39 @@
+{
+  "name": "connecttodb",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "lintfix": "eslint --fix --ext .js .",
+    "lint": "eslint --ext .js .",
+    "start": "nodemon app.js",
+    "test": "KNEX_DEBUG=false NODE_ENV=dev mocha test/*.js --reporter spec --exit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "body-parser": "^1.19.0",
+    "bookshelf": "^1.0.0",
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "eslint": "^5.16.0",
+    "eslint-config-prettier": "^4.3.0",
+    "eslint-loader": "^2.1.2",
+    "eslint-plugin-prettier": "^3.1.0",
+    "express": "^4.17.1",
+    "faker": "^4.1.0",
+    "knex": "^0.19.4",
+    "mysql": "^2.17.1",
+    "nodemon": "^1.19.3",
+    "prettier": "^1.18.2"
+  },
+  "devDependencies": {
+    "mocha": "^6.2.1",
+    "mochawesome": "^4.1.0"
+  },
+  "description": ""
+}
